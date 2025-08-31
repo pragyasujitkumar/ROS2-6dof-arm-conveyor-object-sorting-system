@@ -1,0 +1,100 @@
+[0.379s] Invoking command in '/home/ps/dof_6_ws/src/ur5': PYTHONPATH=/home/ps/dof_6_ws/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/ps/dof_6_ws/build/ur5/build install --record /home/ps/dof_6_ws/build/ur5/install.log --single-version-externally-managed install_data
+[0.515s] running egg_info
+[0.515s] creating ../../build/ur5/ur5.egg-info
+[0.515s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[0.516s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[0.516s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[0.516s] writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+[0.516s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[0.516s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.517s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] creating /home/ps/dof_6_ws/build/ur5/build
+[0.517s] creating /home/ps/dof_6_ws/build/ur5/build/lib
+[0.518s] creating /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/proximity.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/controller_rviz_ik.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/seq.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/controller_rviz.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/pick_place.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/capture_image.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/controller_fk.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/vacuum_gripper_controller.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/pose_publisher.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/__init__.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/spawn_box_scheduler.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/pick_and_place.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.518s] copying ur5/controller_gz.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.519s] copying ur5/controller_ik.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.519s] copying ur5/tmp.py -> /home/ps/dof_6_ws/build/ur5/build/lib/ur5
+[0.519s] running install
+[0.519s] running install_lib
+[0.519s] creating /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/proximity.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/controller_rviz_ik.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/seq.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/controller_rviz.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/pick_place.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/capture_image.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/controller_fk.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.519s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/vacuum_gripper_controller.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/pose_publisher.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/__init__.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/spawn_box_scheduler.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/pick_and_place.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/controller_gz.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/controller_ik.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] copying /home/ps/dof_6_ws/build/ur5/build/lib/ur5/tmp.py -> /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5
+[0.520s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/proximity.py to proximity.cpython-310.pyc
+[0.520s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/controller_rviz_ik.py to controller_rviz_ik.cpython-310.pyc
+[0.520s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/seq.py to seq.cpython-310.pyc
+[0.521s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/controller_rviz.py to controller_rviz.cpython-310.pyc
+[0.521s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/pick_place.py to pick_place.cpython-310.pyc
+[0.521s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/capture_image.py to capture_image.cpython-310.pyc
+[0.521s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/controller_fk.py to controller_fk.cpython-310.pyc
+[0.522s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/vacuum_gripper_controller.py to vacuum_gripper_controller.cpython-310.pyc
+[0.522s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/pose_publisher.py to pose_publisher.cpython-310.pyc
+[0.522s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/__init__.py to __init__.cpython-310.pyc
+[0.522s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/spawn_box_scheduler.py to spawn_box_scheduler.cpython-310.pyc
+[0.522s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/pick_and_place.py to pick_and_place.cpython-310.pyc
+[0.523s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/controller_gz.py to controller_gz.cpython-310.pyc
+[0.524s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/controller_ik.py to controller_ik.cpython-310.pyc
+[0.524s] byte-compiling /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5/tmp.py to tmp.cpython-310.pyc
+[0.525s] running install_data
+[0.525s] creating /home/ps/dof_6_ws/install/ur5/share/ament_index
+[0.525s] creating /home/ps/dof_6_ws/install/ur5/share/ament_index/resource_index
+[0.525s] creating /home/ps/dof_6_ws/install/ur5/share/ament_index/resource_index/packages
+[0.525s] copying resource/ur5 -> /home/ps/dof_6_ws/install/ur5/share/ament_index/resource_index/packages
+[0.525s] copying package.xml -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying launch/ur5_world.launch.py -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying launch/ur5_gazebo.launch.py -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying launch/ur5_control.launch.py -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying launch/ur5_rviz.launch.py -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying urdf/ur5_rviz_bot_clean.urdf -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying urdf/ur5_rviz_bot.urdf -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.525s] copying urdf/ur5_grip.urdf -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.526s] copying config/ur5_control.yaml -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.526s] copying meshes/wrist_3_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.526s] copying meshes/upper_arm_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.534s] copying meshes/base_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.535s] copying meshes/forearm_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.538s] copying meshes/wrist_2_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.541s] copying meshes/wrist_1_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.543s] copying meshes/shoulder_link.STL -> /home/ps/dof_6_ws/install/ur5/share/ur5
+[0.548s] running install_egg_info
+[0.549s] Copying ../../build/ur5/ur5.egg-info to /home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info
+[0.550s] running install_scripts
+[0.562s] Installing cap script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing grip script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing gz script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing gz_ik script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing pnp script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing pose script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing prox script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing rviz script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing rviz_ik script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] Installing scheduler script to /home/ps/dof_6_ws/install/ur5/lib/ur5
+[0.563s] writing list of installed files to '/home/ps/dof_6_ws/build/ur5/install.log'
+[0.579s] Invoked command in '/home/ps/dof_6_ws/src/ur5' returned '0': PYTHONPATH=/home/ps/dof_6_ws/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/ps/dof_6_ws/build/ur5/build install --record /home/ps/dof_6_ws/build/ur5/install.log --single-version-externally-managed install_data

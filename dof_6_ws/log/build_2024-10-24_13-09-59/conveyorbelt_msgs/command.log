@@ -1,0 +1,4 @@
+Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ps/dof_6_ws/install/ur5:/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_msgs -- -j12 -l12
+Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ps/dof_6_ws/install/ur5:/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_msgs -- -j12 -l12
+Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ps/dof_6_ws/install/ur5:/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_msgs
+Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ps/dof_6_ws/install/ur5:/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_msgs

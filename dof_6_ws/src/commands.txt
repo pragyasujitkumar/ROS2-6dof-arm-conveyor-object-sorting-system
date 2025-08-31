@@ -1,0 +1,40 @@
+ros2 control load_controller --set-state active joint_state_broadcaster
+ros2 control load_controller --set-state active joint_trajectory_controller
+
+------------PICK PLACE CONTROLLER--------
+Scan Aruco:
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[-0.25,0.1,-0.9,0.4,-1.57,0.0]
+
+Pick:
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[-0.31,0.2,-0.93,0.4,-1.57,0.0]
+
+
+Vacuum Gripper:
+ros2 service call /switch std_srvs/srv/SetBool "{data: true}"
+
+Place: 
+BOX 1:
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,-0.2,1.7,0.45,1.6,0.0]
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.3,-0.3,1.5,0.1,1.57,0.0]
+
+BOX2:
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[0.0,-0.7,1.0,0.1,1.6,0.0]
+
+BOX3:
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[-0.6,-0.7,1.0,0.1,1.6,0.0]
+
+BOX4:
+ros2 run ur5 gz_ik --ros-args -p joint_angles:=[-0.45,-1.0,0.5,0.3,1.6,0.0]
+
+-----------CONVEYOR BELT--------
+
+SPAWNING BOX:
+Start Position:
+ros2 run ros2_conveyorbelt SpawnObject.py --package "conveyorbelt_gazebo" --urdf "box.urdf" --name "box10" --x 0.1 --y 0.3 --z 0.76
+Stop Position:
+ros2 run ros2_conveyorbelt SpawnObject.py --package "conveyorbelt_gazebo" --urdf "box.urdf" --name "box11" --x 0.55 --y 0.3 --z 0.76
+
+Conveyor Belt Speed Control:
+ros2 service call /CONVEYORPOWER conveyorbelt_msgs/srv/ConveyorBeltControl "{power: 10}"
+
+

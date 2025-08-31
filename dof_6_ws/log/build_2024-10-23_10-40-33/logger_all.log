@@ -1,0 +1,394 @@
+[0.076s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.076s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75e90533ef20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75e9054f8190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75e9054f8190>>, mixin_verb=('build',))
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ps/dof_6_ws'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_gazebo) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conveyorbelt_gazebo' with type 'ros.ament_cmake' and name 'conveyorbelt_gazebo'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyorbelt_msgs) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conveyorbelt_msgs' with type 'ros.ament_cmake' and name 'conveyorbelt_msgs'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit' with type 'ros.ament_cmake' and name 'moveit'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_conveyorbelt) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_conveyorbelt' with type 'ros.ament_cmake' and name 'ros2_conveyorbelt'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5' with type 'ros.ament_python' and name 'ur5'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/humble
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'conveyorbelt_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ps/dof_6_ws/build/conveyorbelt_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ps/dof_6_ws/install/conveyorbelt_gazebo', 'merge_install': False, 'path': '/home/ps/dof_6_ws/src/conveyorbelt_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'conveyorbelt_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ps/dof_6_ws/build/conveyorbelt_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ps/dof_6_ws/install/conveyorbelt_msgs', 'merge_install': False, 'path': '/home/ps/dof_6_ws/src/conveyorbelt_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ur5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ps/dof_6_ws/build/ur5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ps/dof_6_ws/install/ur5', 'merge_install': False, 'path': '/home/ps/dof_6_ws/src/ur5', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ps/dof_6_ws/build/moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ps/dof_6_ws/install/moveit', 'merge_install': False, 'path': '/home/ps/dof_6_ws/src/moveit', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_conveyorbelt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ps/dof_6_ws/build/ros2_conveyorbelt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ps/dof_6_ws/install/ros2_conveyorbelt', 'merge_install': False, 'path': '/home/ps/dof_6_ws/src/ros2_conveyorbelt', 'symlink_install': False, 'test_result_base': None}
+[0.247s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ps/dof_6_ws/src/conveyorbelt_msgs' with build type 'ament_cmake'
+[0.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ps/dof_6_ws/src/conveyorbelt_msgs'
+[0.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ps/dof_6_ws/src/ur5' with build type 'ament_python'
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5', 'ament_prefix_path')
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ur5/share/ur5/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/ur5/share/ur5/hook/ament_prefix_path.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ur5/share/ur5/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ps/dof_6_ws/src/conveyorbelt_gazebo' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ps/dof_6_ws/src/conveyorbelt_gazebo'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_msgs -- -j12 -l12
+[0.485s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ps/dof_6_ws/src/ur5'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_gazebo -- -j12 -l12
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_gazebo -- -j12 -l12
+[0.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_gazebo
+[0.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_msgs -- -j12 -l12
+[0.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_gazebo)
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_gazebo
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo' for CMake config files
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_gazebo', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/lib/pkgconfig/conveyorbelt_gazebo.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/lib/python3.10/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.sh'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.bash'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.zsh'
+[0.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/colcon-core/packages/conveyorbelt_gazebo)
+[0.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_gazebo)
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_gazebo', 'cmake_prefix_path')
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/bin'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/lib/pkgconfig/conveyorbelt_gazebo.pc'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/lib/python3.10/site-packages'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/bin'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.sh'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.bash'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.zsh'
+[0.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/conveyorbelt_gazebo/share/colcon-core/packages/conveyorbelt_gazebo)
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_msgs
+[0.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_msgs)
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs' for CMake module files
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_msgs
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs' for CMake config files
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'cmake_prefix_path')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.dsv'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.sh'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib'
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'ld_library_path_lib')
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.sh'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/bin'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib/pkgconfig/conveyorbelt_msgs.pc'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib/python3.10/site-packages'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/bin'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.sh'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.bash'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.zsh'
+[0.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/colcon-core/packages/conveyorbelt_msgs)
+[0.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_msgs)
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs' for CMake module files
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs' for CMake config files
+[0.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'cmake_prefix_path')
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib'
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'ld_library_path_lib')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.sh'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/bin'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib/pkgconfig/conveyorbelt_msgs.pc'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib/python3.10/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/conveyorbelt_msgs/bin'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.bash'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.zsh'
+[0.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/conveyorbelt_msgs/share/colcon-core/packages/conveyorbelt_msgs)
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ps/dof_6_ws/src/ros2_conveyorbelt' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ps/dof_6_ws/src/ros2_conveyorbelt'
+[0.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/ros2_conveyorbelt': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ps/dof_6_ws/build/ros2_conveyorbelt -- -j12 -l12
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/src/ur5': PYTHONPATH=/home/ps/dof_6_ws/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/ps/dof_6_ws/build/ur5/build install --record /home/ps/dof_6_ws/build/ur5/install.log --single-version-externally-managed install_data
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/ros2_conveyorbelt' returned '0': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ps/dof_6_ws/build/ros2_conveyorbelt -- -j12 -l12
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/ros2_conveyorbelt': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ps/dof_6_ws/build/ros2_conveyorbelt
+[0.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_conveyorbelt)
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/ros2_conveyorbelt' returned '0': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ps/dof_6_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ps/dof_6_ws/build/ros2_conveyorbelt
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt' for CMake module files
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt' for CMake config files
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'cmake_prefix_path')
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/lib'
+[0.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'ld_library_path_lib')
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/bin'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/lib/pkgconfig/ros2_conveyorbelt.pc'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/lib/python3.10/site-packages'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/bin'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.sh'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.bash'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.zsh'
+[0.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/colcon-core/packages/ros2_conveyorbelt)
+[0.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_conveyorbelt)
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt' for CMake module files
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt' for CMake config files
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'cmake_prefix_path')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.sh'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/lib'
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'ld_library_path_lib')
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.sh'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/bin'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/lib/pkgconfig/ros2_conveyorbelt.pc'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/lib/python3.10/site-packages'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ros2_conveyorbelt/bin'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.sh'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.bash'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.zsh'
+[0.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/ros2_conveyorbelt/share/colcon-core/packages/ros2_conveyorbelt)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5' for CMake module files
+[0.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/src/ur5' returned '0': PYTHONPATH=/home/ps/dof_6_ws/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/ps/dof_6_ws/build/ur5/build install --record /home/ps/dof_6_ws/build/ur5/install.log --single-version-externally-managed install_data
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5' for CMake config files
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5/lib'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5/bin'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5/lib/pkgconfig/ur5.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages'
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5', 'pythonpath')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ur5/share/ur5/hook/pythonpath.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/ur5/share/ur5/hook/pythonpath.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/ur5/share/ur5/hook/pythonpath.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/ur5/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5)
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ur5/share/ur5/package.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/ur5/share/ur5/package.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ur5/share/ur5/package.sh'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ur5/share/ur5/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/ur5/share/ur5/package.zsh'
+[0.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/ur5/share/colcon-core/packages/ur5)
+[0.933s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ps/dof_6_ws/src/moveit' with build type 'ament_cmake'
+[0.933s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ps/dof_6_ws/src/moveit'
+[0.933s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.933s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/moveit': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/ur5:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ps/dof_6_ws/build/moveit -- -j12 -l12
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/ur5:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ps/dof_6_ws/build/moveit -- -j12 -l12
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ps/dof_6_ws/build/moveit': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/ur5:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ps/dof_6_ws/build/moveit
+[1.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit)
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ps/dof_6_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/home/ps/dof_6_ws/install/ur5:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ps/dof_6_ws/build/moveit
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit' for CMake module files
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit' for CMake config files
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit', 'cmake_prefix_path')
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/moveit/share/moveit/hook/cmake_prefix_path.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/moveit/share/moveit/hook/cmake_prefix_path.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/moveit/share/moveit/hook/cmake_prefix_path.sh'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/bin'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/lib/pkgconfig/moveit.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/lib/python3.10/site-packages'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/bin'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/moveit/share/moveit/package.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.bash'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.zsh'
+[1.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/moveit/share/colcon-core/packages/moveit)
+[1.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit)
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit' for CMake module files
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit' for CMake config files
+[1.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit', 'cmake_prefix_path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/moveit/share/moveit/hook/cmake_prefix_path.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ps/dof_6_ws/install/moveit/share/moveit/hook/cmake_prefix_path.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ps/dof_6_ws/install/moveit/share/moveit/hook/cmake_prefix_path.sh'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/bin'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/lib/pkgconfig/moveit.pc'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/lib/python3.10/site-packages'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/ps/dof_6_ws/install/moveit/bin'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ps/dof_6_ws/install/moveit/share/moveit/package.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.sh'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.bash'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/ps/dof_6_ws/install/moveit/share/moveit/package.zsh'
+[1.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ps/dof_6_ws/install/moveit/share/colcon-core/packages/moveit)
+[1.037s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.038s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.044s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.059s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ps/dof_6_ws/install/local_setup.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ps/dof_6_ws/install/_local_setup_util_ps1.py'
+[1.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ps/dof_6_ws/install/setup.ps1'
+[1.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ps/dof_6_ws/install/local_setup.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ps/dof_6_ws/install/_local_setup_util_sh.py'
+[1.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ps/dof_6_ws/install/setup.sh'
+[1.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ps/dof_6_ws/install/local_setup.bash'
+[1.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ps/dof_6_ws/install/setup.bash'
+[1.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ps/dof_6_ws/install/local_setup.zsh'
+[1.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ps/dof_6_ws/install/setup.zsh'

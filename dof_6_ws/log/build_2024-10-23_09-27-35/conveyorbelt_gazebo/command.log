@@ -1,0 +1,6 @@
+Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ps/dof_6_ws/src/conveyorbelt_gazebo -DCMAKE_INSTALL_PREFIX=/home/ps/dof_6_ws/install/conveyorbelt_gazebo
+Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ps/dof_6_ws/src/conveyorbelt_gazebo -DCMAKE_INSTALL_PREFIX=/home/ps/dof_6_ws/install/conveyorbelt_gazebo
+Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_gazebo -- -j12 -l12
+Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ps/dof_6_ws/build/conveyorbelt_gazebo -- -j12 -l12
+Invoking command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_gazebo
+Invoked command in '/home/ps/dof_6_ws/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ps/dof_6_ws/build/conveyorbelt_gazebo

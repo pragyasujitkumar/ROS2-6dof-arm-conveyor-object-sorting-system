@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages",
+        "/home/ps/dof_6_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ps/dof_6_ws/install/ur5/lib/python3.10/site-packages",
+        "/home/ps/dof_6_ws/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

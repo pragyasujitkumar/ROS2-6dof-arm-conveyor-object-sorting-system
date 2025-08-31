@@ -1,0 +1,7 @@
+{
+  "package_name": "conveyorbelt_msgs",
+  "non_idl_tuples": [
+    "/home/ps/dof_6_ws/src/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
+    "/home/ps/dof_6_ws/src/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
+  ]
+}
